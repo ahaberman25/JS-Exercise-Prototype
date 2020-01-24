@@ -119,7 +119,7 @@ Baby.prototype.play = function() {
    is what `this` applies to.
   2. New Binding- whenever a constructor function is used, `this` refers to the specific instance 
   of the object and is returned by the constructor function.
-  3. Explicit Binding- whenever call,apply, or bind method is used `this` is explicitely defined.
+  3. Explicit Binding- whenever call,apply, or bind method is used `this` is explicitly defined.
   4. Window Binding- if no other rules apply `this` defaults to window object unless in strict mode.
 */
 
